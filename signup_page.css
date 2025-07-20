@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.container1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    width: 500px;
+    height: 630px;
+    border-radius: 2px solid;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-color: #f4f7f8;
+}
+
+h1{
+    text-align: center;
+    margin: 2px;
+    padding: 10px 0px 15px 2px;
+    border-bottom: 1px solid #adadad;
+}
+.text_field ,.dob ,.option ,.submit_button
+{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 20px 10px 20px;
+    font-size: 20px;
+    
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select
+ {
+   width: 100%;
+   /* height: 150px; */
+   padding: 15px;
+   border: 2px solid #ddd;
+   
+   font-size: 16px;
+   transition: border-color 0.3s;
+   border-radius: 4px;
+}
+
+input[type="submit"]
+{
+
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    cursor:pointer;
+    font-size: 16px;
+    border: 2px solid #666;
+
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+input:focus,
+select:focus
+{
+    border-color:  #007bff;;
+    outline: none;
+    transition: .5s;
+}
+
+input[type="submit"]:hover
+{
+    color: white;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    transition: .5s;
+    font-size: 16px;
+}
